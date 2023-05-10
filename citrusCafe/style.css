@@ -1,0 +1,45 @@
+#myPage{
+margin:0 auto; /* centred on page, no margin at top and bottom */
+max-width:1260px;
+min-width:860px;
+width:95%;
+background:#66B034;
+}
+#mainNav{
+border-style:solid;
+border-color:black;
+border-width:2px;
+width:130px;
+margin:5px;
+}
+#mainNav ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#mainNav ul:hover{
+color:#66B034;
+background:#FFF;
+}
+section{
+background: rgba(255, 255, 255, .8);
+border-style:solid;
+border-color:black;
+border-width:2px;
+padding:1em;
+margin:5px;
+color:black;
+}
+article{
+background:white;
+border-style:solid;
+border-color:black;
+margin:5px;
+padding:10px;
+}
+article:: img{
+width:100%;
+height:auto;
+margin:0;
+padding:0;
+}
